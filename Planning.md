@@ -37,7 +37,7 @@ has_many comments
 ### Comments
 
 ```
-body:text [present]
+body:text [present, 1+ chars]
 user_id:integer [present]
 post_id:integer [present]
 id:integer
