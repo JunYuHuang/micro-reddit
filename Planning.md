@@ -23,7 +23,8 @@ has_many comments
 ### Posts
 
 ```
-url:string [present]
+title:string [present, 1+ chars]
+url:string [present, 3+ chars]
 user_id:integer [present]
 id:integer
 created_at:datetime
